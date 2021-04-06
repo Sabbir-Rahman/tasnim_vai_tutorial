@@ -1,1 +1,1 @@
-alert('This is second script');
+alert('This is second script ');
