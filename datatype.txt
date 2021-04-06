@@ -1,0 +1,50 @@
+There are 8 datatypes in js
+1/Number: both floating point and integer.
+Example: 
+    let n = 123;
+    let n = 123.12;
+with this three special charecter infinity, negative infinity and nan
+Thats why math operation in js is much safer than in c 
+
+Nan represents undefined math operation error like 
+let n = "hello"/2 but let n = "2"/2 is valid and ans=1 
+
+2/BigInt: number range is -2^53 ~ 2^53 to decalre a BigInt 
+  let n = 123n;
+
+3/String  
+To format string 
+Example: let name = "Sabbir"
+alert('My name is ${name}');
+
+4/Boolean 
+Example: let isChecked = true;
+
+5/null
+if any data is assign to null it is null 
+let x = null; 
+
+6/Undefined
+Example: let x;
+alert(x) will output undefined
+if varable is not assigned then it will be undefined
+
+7/object 
+
+8/Symbol
+
+first 6 types are primitive because they only carry single value 
+but other 2 types object and Symbol can carry multiple value in a single variable 
+that's why it is non primitive
+
+
+
+
+
+One variable can use multiple datatypes
+
+For example, 
+let number = 123;
+number = "Hello";
+
+This is valid that's why js is called dynamic lanuage
