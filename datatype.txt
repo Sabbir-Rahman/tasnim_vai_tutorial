@@ -37,6 +37,11 @@ first 6 types are primitive because they only carry single value
 but other 2 types object and Symbol can carry multiple value in a single variable 
 that's why it is non primitive
 
+Double equals == only check value is equal or not 
+Triple equal === check value and type also
+
+
+
 
 
 

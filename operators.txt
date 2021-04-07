@@ -1,0 +1,10 @@
+
+Double equals == only check value is equal or not 
+Triple equal === check value and type also
+
+let a = '2' + 2 //output '22'
+let a = 2 + 3 + '5'//output '5' because 2 and 3 will be add first
+
+confirm modal can return value
+
+another modal is prompt modal
