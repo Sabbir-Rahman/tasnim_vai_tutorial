@@ -1,2 +1,2 @@
-let result = prompt("How old are you?", "10");
+let result = confirm("Are you 25 years old?");
 alert(result)
