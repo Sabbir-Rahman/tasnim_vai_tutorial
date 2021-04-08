@@ -1,33 +1,46 @@
-let sayHi = function foo()
-    {
-        alert("Hi !");
+function make_user(name, age) {
+
+    return {
+        name: name,
+        age: age,
     };
+}
 
-//this will print what inside the function
-alert(sayHi)
 
-//this will print Hi !
-sayHi()
+let user = new Object();
+console.log(user)
 
-/*
-function expresseion means assign function to a variable
-function declaration means declare the function
+let user1 = {
+    name: "Sakib",
+    age: 30
+};
 
-so if a function is decalred it can be called before declaration
+user1.address = "Kushtia"
+user1['Uni'] = "IUT"
 
-but if a function is expressed it can not be used before expression
+//for multi word property name double string is needed and can not use dot notation
+//reserve keyword like for can be used as property name
 
-if a js script is called under strict script then a function can not be called outside the
-the block it is created
+user1.for_delete = "Delete this"
 
-to do this just write "use strict" at the top of the script
+user1["is admin"] = false
 
-*/
+let variable = "value"
 
-//arrow function
+user1[variable] = 5;
 
-let sum = (a,b) =>
-{
-    ans = a+b;
-    return ans;
+delete user1.for_delete;
+
+console.log(user1)
+console.log(user1.name)
+console.log(user1['name'])
+console.log(user1['is admin'])
+
+let user3 = make_user("Sakib",30)
+
+console.log(user3)
+
+for (let key in user1){
+    console.log(key);
+    console.log(user1[key]);
 }
