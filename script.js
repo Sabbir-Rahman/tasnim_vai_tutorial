@@ -1,30 +1,14 @@
-let a = b =c = 5;
-
-if (a!=b){
-    alert('Inside if')
-}
-else if (b!=c){
-    alert('Inside else if')
-}
-else{
-    alert('Inside else')
-}
-
-//for loop
 let str = '';
-for(let i=0;i<5;i++){
+let i = 0;
 
-    str+=i;
-    str+='\n'
+switch(i)
+{
+    case 0:
+        alert('0');
+        break;
+    case 1:
+        alert('1');
+        break;
+    default:
+        alert('default');
 }
-
-alert(str)
-
-let i =0;
-let str2 = ''
-while(i<10){
-    str2+=i;
-    str2+='\n';
-    i++;
-}
-alert(str2);
